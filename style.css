@@ -1,0 +1,231 @@
+h1{
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;    
+}
+h3{
+    text-align: center;
+     
+}
+.featurette-heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+
+}
+.lead {
+    text-align: center;    
+}
+.contact{
+    color: rgb(4, 255, 255);
+}
+ 
+main {
+    margin: 20px 0;
+}
+
+.news-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.news-item {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.news-item h2 {
+    margin: 10px 0;
+}
+
+.news-item p {
+    color: #555;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    color: #007bff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .news-section {
+        grid-template-columns: 1fr;
+    }
+}
+ 
+.social-follow {
+    text-align: center;
+  }
+
+  /* Social buttons styling */
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    width: 50px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+
+  /* Icon colors */
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  .social-icons .youtube { background-color: #FF0000; }
+  .social-icons .facebook { background-color: #316ff6; }
+  .social-icons .instagram { background-color: #d85190; }
+  .social-icons .twitter { background-color: #1da1f2; }
+
+  @media (max-width: 500px) {
+    .social-follow {
+      max-width: 100%;
+      padding: 15px;
+    }
+
+    .social-icons a {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
+  }
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .photo-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .photo-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .photo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .photo-info {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .photo-info h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+
+  .photo-info p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+  }
+
+  /* Responsive styling */
+  @media (max-width: 600px) {
+    .photo-info h4 {
+      font-size: 16px;
+    }
+    .photo-info p {
+      font-size: 13px;
+    }
+  }
+  .contact-widget {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    text-align: center;
+  }
+
+  .contact-widget h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.1em;
+    color: #444;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-item i {
+    font-size: 1.5em;
+    color: #2575fc;
+  }
+
+  /* Hover effect */
+  .contact-item:hover {
+    background-color: #f0f4ff;
+  }
+
+  /* Responsive adjustments */
+  @media (min-width: 480px) {
+    .contact-info {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+ 
